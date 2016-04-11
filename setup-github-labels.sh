@@ -42,9 +42,9 @@ curl --user "$USER:$PASS" --include --request POST --data '{"name":"chore","colo
 curl --user "$USER:$PASS" --include --request POST --data '{"name":"legal","color":"FEF2C0"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 
 ## Experience
-curl --user "$USER:$PASS" --include --request POST --data '{"name":"copy","color":"EE3F46"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl --user "$USER:$PASS" --include --request POST --data '{"name":"design","color":"EE3F46"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl --user "$USER:$PASS" --include --request POST --data '{"name":"ux","color":"EE3F46"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl --user "$USER:$PASS" --include --request POST --data '{"name":"copy","color":"FFC274"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl --user "$USER:$PASS" --include --request POST --data '{"name":"design","color":"FFC274"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl --user "$USER:$PASS" --include --request POST --data '{"name":"ux","color":"FFC274"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 
 ## Environment
 # curl --user "$USER:$PASS" --include --request POST --data '{"name":"staging","color":"FAD8C7"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
