@@ -4,3 +4,5 @@
 
 # Description
 Primary repository for [our waffle.io board](https://waffle.io/AppBones/waffleio).
+
+Labels for Issues inspired by: [RobinPowered](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/)
