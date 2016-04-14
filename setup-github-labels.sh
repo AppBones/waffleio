@@ -73,3 +73,8 @@ curl --user "$USER:$PASS" --include --request POST --data '{"name":"invalid","co
 curl --user "$USER:$PASS" --include --request POST --data '{"name":"wontfix","color":"D2DAE1"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 curl --user "$USER:$PASS" --include --request POST --data '{"name":"duplicate","color":"D2DAE1"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 curl --user "$USER:$PASS" --include --request POST --data '{"name":"on hold","color":"D2DAE1"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+
+# Priority
+curl --user "$USER:$PASS" --include --request POST --data '{"name":"low priority","color":"5319E7"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl --user "$USER:$PASS" --include --request POST --data '{"name":"medium priority","color":"5319E7"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl --user "$USER:$PASS" --include --request POST --data '{"name":"high priority","color":"5319E7"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
